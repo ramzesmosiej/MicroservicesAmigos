@@ -10,9 +10,10 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>customer</module>
-      <module>fraud</module>
+    <module>fraud</module>
     <module>eureka-server</module>
     <module>clients</module>
+    <module>notification-sender</module>
   </modules>
 
   <name>ramzeskurs</name>
@@ -60,6 +61,11 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-openfeign</artifactId>
     </dependency>
+      <dependency>
+        <groupId>net.sf.sociaal</groupId>
+        <artifactId>freetts</artifactId>
+        <version>1.2.2</version>
+      </dependency>
   </dependencies>
 
   <build>
